@@ -67,6 +67,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHf-fk-u1j">
+                                <rect key="frame" x="236" y="519" width="128" height="30"/>
+                                <state key="normal" title="Share to Facebook"/>
+                                <connections>
+                                    <action selector="shareToFb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sRF-y4-mmx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -75,6 +82,8 @@
                             <constraint firstItem="8f6-Z6-AAd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7HH-FE-ppF"/>
                             <constraint firstItem="NvL-gy-1u7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="8h1-dU-LkL"/>
                             <constraint firstItem="P6a-d6-P9V" firstAttribute="top" secondItem="DjA-vT-phN" secondAttribute="bottom" constant="15" id="GYN-qF-feV"/>
+                            <constraint firstItem="vHf-fk-u1j" firstAttribute="top" secondItem="cqf-D9-rnT" secondAttribute="bottom" constant="20" id="J4x-sA-tQz"/>
+                            <constraint firstItem="vHf-fk-u1j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Plb-Se-axL"/>
                             <constraint firstItem="DjA-vT-phN" firstAttribute="top" secondItem="cP2-tK-CtG" secondAttribute="bottom" constant="20" id="R3B-Zk-CBG"/>
                             <constraint firstItem="8f6-Z6-AAd" firstAttribute="top" secondItem="NvL-gy-1u7" secondAttribute="bottom" constant="15" id="ZOu-R0-YrB"/>
                             <constraint firstItem="cqf-D9-rnT" firstAttribute="top" secondItem="P6a-d6-P9V" secondAttribute="bottom" constant="10" id="biv-X7-74j"/>
