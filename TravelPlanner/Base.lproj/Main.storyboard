@@ -39,22 +39,60 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DjA-vT-phN">
+                                <rect key="frame" x="230" y="253" width="140" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="QnI-Ck-Lgf"/>
+                                    <constraint firstAttribute="width" constant="140" id="Twe-j5-3Jp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Where Should I Go?"/>
+                                <connections>
+                                    <action selector="whereTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hfl-M8-Qyz"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P6a-d6-P9V">
+                                <rect key="frame" x="163" y="298" width="275" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="cAQ-98-8yc"/>
+                                    <constraint firstAttribute="width" constant="275" id="lWn-lj-jNZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqf-D9-rnT">
+                                <rect key="frame" x="10" y="478" width="580" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="aC5-N7-ZMy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cqf-D9-rnT" secondAttribute="trailing" constant="10" id="0JH-yA-RMu"/>
                             <constraint firstItem="5kP-9y-IAe" firstAttribute="top" secondItem="8f6-Z6-AAd" secondAttribute="bottom" constant="15" id="53W-TV-cTG"/>
                             <constraint firstItem="8f6-Z6-AAd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7HH-FE-ppF"/>
                             <constraint firstItem="NvL-gy-1u7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="8h1-dU-LkL"/>
+                            <constraint firstItem="P6a-d6-P9V" firstAttribute="top" secondItem="DjA-vT-phN" secondAttribute="bottom" constant="15" id="GYN-qF-feV"/>
+                            <constraint firstItem="DjA-vT-phN" firstAttribute="top" secondItem="cP2-tK-CtG" secondAttribute="bottom" constant="20" id="R3B-Zk-CBG"/>
                             <constraint firstItem="8f6-Z6-AAd" firstAttribute="top" secondItem="NvL-gy-1u7" secondAttribute="bottom" constant="15" id="ZOu-R0-YrB"/>
+                            <constraint firstItem="cqf-D9-rnT" firstAttribute="top" secondItem="P6a-d6-P9V" secondAttribute="bottom" constant="10" id="biv-X7-74j"/>
                             <constraint firstItem="cP2-tK-CtG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cip-Bg-iw6"/>
                             <constraint firstAttribute="trailing" secondItem="NvL-gy-1u7" secondAttribute="trailing" constant="20" id="dhy-W9-ioG"/>
                             <constraint firstItem="cP2-tK-CtG" firstAttribute="top" secondItem="5kP-9y-IAe" secondAttribute="bottom" constant="15" id="fjr-jM-kLi"/>
                             <constraint firstItem="5kP-9y-IAe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="fmn-J7-YmK"/>
                             <constraint firstItem="NvL-gy-1u7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="fnG-D7-NiR"/>
+                            <constraint firstItem="cqf-D9-rnT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="jCB-vM-YGv"/>
+                            <constraint firstItem="cqf-D9-rnT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="p1f-VA-MQq"/>
                             <constraint firstAttribute="trailing" secondItem="5kP-9y-IAe" secondAttribute="trailing" constant="15" id="vMt-L4-a3k"/>
+                            <constraint firstItem="DjA-vT-phN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yeQ-us-RNs"/>
+                            <constraint firstItem="P6a-d6-P9V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ygI-mX-0Ld"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="destinationLabel" destination="cqf-D9-rnT" id="EqW-2U-Kwg"/>
+                        <outlet property="imageView" destination="P6a-d6-P9V" id="YdR-o7-7OV"/>
                         <outlet property="mySwitch" destination="cP2-tK-CtG" id="gf1-F5-rYO"/>
                         <outlet property="pickerView" destination="8f6-Z6-AAd" id="Xvd-Ie-ucQ"/>
                     </connections>

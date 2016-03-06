@@ -13,6 +13,11 @@
 		7A30A4D31C8BCADA00D69266 /* TravelPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A30A4D11C8BCADA00D69266 /* TravelPlanner.xcdatamodeld */; };
 		7A30A4D51C8BCADA00D69266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A30A4D41C8BCADA00D69266 /* Assets.xcassets */; };
 		7A30A4D81C8BCADA00D69266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A30A4D61C8BCADA00D69266 /* LaunchScreen.storyboard */; };
+		7A30A4E01C8BD53D00D69266 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A30A4DF1C8BD53D00D69266 /* Destination.swift */; };
+		7A30A4E51C8BDF4400D69266 /* miami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A30A4E11C8BDF4400D69266 /* miami.jpg */; };
+		7A30A4E61C8BDF4400D69266 /* zion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A30A4E21C8BDF4400D69266 /* zion.jpg */; };
+		7A30A4E71C8BDF4400D69266 /* everest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A30A4E31C8BDF4400D69266 /* everest.jpg */; };
+		7A30A4E81C8BDF4400D69266 /* thailand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A30A4E41C8BDF4400D69266 /* thailand.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		7A30A4D41C8BCADA00D69266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A30A4D71C8BCADA00D69266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A30A4D91C8BCADA00D69266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A30A4DF1C8BD53D00D69266 /* Destination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		7A30A4E11C8BDF4400D69266 /* miami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = miami.jpg; path = ../../../../../../Desktop/miami.jpg; sourceTree = "<group>"; };
+		7A30A4E21C8BDF4400D69266 /* zion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zion.jpg; path = ../../../../../../Desktop/zion.jpg; sourceTree = "<group>"; };
+		7A30A4E31C8BDF4400D69266 /* everest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = everest.jpg; path = ../../../../../../Desktop/everest.jpg; sourceTree = "<group>"; };
+		7A30A4E41C8BDF4400D69266 /* thailand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thailand.jpg; path = ../../../../../../Desktop/thailand.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +66,13 @@
 		7A30A4C91C8BCADA00D69266 /* TravelPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				7A30A4E11C8BDF4400D69266 /* miami.jpg */,
+				7A30A4E21C8BDF4400D69266 /* zion.jpg */,
+				7A30A4E31C8BDF4400D69266 /* everest.jpg */,
+				7A30A4E41C8BDF4400D69266 /* thailand.jpg */,
 				7A30A4CA1C8BCADA00D69266 /* AppDelegate.swift */,
 				7A30A4CC1C8BCADA00D69266 /* ViewController.swift */,
+				7A30A4DF1C8BD53D00D69266 /* Destination.swift */,
 				7A30A4CE1C8BCADA00D69266 /* Main.storyboard */,
 				7A30A4D41C8BCADA00D69266 /* Assets.xcassets */,
 				7A30A4D61C8BCADA00D69266 /* LaunchScreen.storyboard */,
@@ -126,6 +141,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A30A4D81C8BCADA00D69266 /* LaunchScreen.storyboard in Resources */,
+				7A30A4E81C8BDF4400D69266 /* thailand.jpg in Resources */,
+				7A30A4E61C8BDF4400D69266 /* zion.jpg in Resources */,
+				7A30A4E71C8BDF4400D69266 /* everest.jpg in Resources */,
+				7A30A4E51C8BDF4400D69266 /* miami.jpg in Resources */,
 				7A30A4D51C8BCADA00D69266 /* Assets.xcassets in Resources */,
 				7A30A4D01C8BCADA00D69266 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +159,7 @@
 			files = (
 				7A30A4D31C8BCADA00D69266 /* TravelPlanner.xcdatamodeld in Sources */,
 				7A30A4CD1C8BCADA00D69266 /* ViewController.swift in Sources */,
+				7A30A4E01C8BD53D00D69266 /* Destination.swift in Sources */,
 				7A30A4CB1C8BCADA00D69266 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
